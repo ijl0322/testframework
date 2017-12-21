@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78003C421FC0B70D00C3CDC8 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7823C27A1FBCFA8900DD5EE7 /* GoogleToolboxForMac.framework */; };
+		78003C431FC0B70D00C3CDC8 /* GoogleToolboxForMac.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7823C27A1FBCFA8900DD5EE7 /* GoogleToolboxForMac.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		78003C501FC0B76700C3CDC8 /* ls_ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC978DA11F993C6C00147543 /* ls_ios_sdk.framework */; };
+		78003C511FC0B76700C3CDC8 /* ls_ios_sdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FC978DA11F993C6C00147543 /* ls_ios_sdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		78003C571FC0BC4700C3CDC8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78003C561FC0BC4700C3CDC8 /* Launch Screen.storyboard */; };
+		7801686D1FBF8C7B002D8BA2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801686A1FBF8C5D002D8BA2 /* DetailViewController.swift */; };
+		7801686E1FBF8C7B002D8BA2 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801686C1FBF8C5E002D8BA2 /* DetailController.swift */; };
+		7801686F1FBF8C7B002D8BA2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801686B1FBF8C5E002D8BA2 /* DetailView.swift */; };
+		780168731FBF8DB7002D8BA2 /* LSVideoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780168721FBF8DB7002D8BA2 /* LSVideoItem.swift */; };
+		78BA7D151FC0B5AB00341CFA /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7823C27C1FBCFA8900DD5EE7 /* GTMSessionFetcher.framework */; };
+		78BA7D161FC0B5AB00341CFA /* GTMSessionFetcher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7823C27C1FBCFA8900DD5EE7 /* GTMSessionFetcher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		78E02D051F97BDAB007C25D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E02D041F97BDAB007C25D1 /* AppDelegate.swift */; };
+		78E02D071F97BDAB007C25D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E02D061F97BDAB007C25D1 /* ViewController.swift */; };
+		78E02D0C1F97BDAB007C25D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78E02D0B1F97BDAB007C25D1 /* Assets.xcassets */; };
+		7A4019031FEAC3EC00BD0261 /* ObjcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4019021FEAC3EC00BD0261 /* ObjcViewController.m */; };
+		FC6581401FC3564C00FBD387 /* govball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC65813F1FC3564B00FBD387 /* govball.jpg */; };
+		FC978DA81F993CAD00147543 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC978D981F993C1B00147543 /* Lottie.framework */; };
+		FC978DA91F993CAD00147543 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FC978D981F993C1B00147543 /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78003C441FC0B70D00C3CDC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC978D911F993C1B00147543 /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		78003C521FC0B76700C3CDC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC978D9B1F993C6C00147543 /* ls-ios-sdk.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 781D54891F9660ED00025E2B;
+			remoteInfo = "ls-ios-sdk";
+		};
+		7823C2791FBCFA8900DD5EE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC978D911F993C1B00147543 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 71804FE5B6D5A2CBAFB6A17EC7846F6F;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		7823C27B1FBCFA8900DD5EE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC978D911F993C1B00147543 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BA10F79A82FE92A066073F42471C0507;
+			remoteInfo = GTMSessionFetcher;
+		};
+		78BA7D171FC0B5AB00341CFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC978D911F993C1B00147543 /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C052BEBFBD0AB5218CC64BA3450F6547;
+			remoteInfo = GTMSessionFetcher;
+		};
+		FC978D971F993C1B00147543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC978D911F993C1B00147543 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9188A8E34CE391123173E6A91115DDBF;
+			remoteInfo = "lottie-ios";
+		};
+		FC978D991F993C1B00147543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC978D911F993C1B00147543 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5B103D7CE8CB12F7A815534409179BF1;
+			remoteInfo = "Pods-ls-ios-sdk";
+		};
+		FC978DA01F993C6C00147543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC978D9B1F993C6C00147543 /* ls-ios-sdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 781D548A1F9660ED00025E2B;
+			remoteInfo = "ls-ios-sdk";
+		};
+		FC978DA21F993C6C00147543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC978D9B1F993C6C00147543 /* ls-ios-sdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 781D54931F9660ED00025E2B;
+			remoteInfo = "ls-ios-sdkTests";
+		};
+		FC978DAA1F993CAD00147543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC978D911F993C1B00147543 /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8386817F9A5E38AB99F1AA49CD86EB76;
+			remoteInfo = "lottie-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		78E02D2D1F97BE00007C25D1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FC978DA91F993CAD00147543 /* Lottie.framework in Embed Frameworks */,
+				78003C511FC0B76700C3CDC8 /* ls_ios_sdk.framework in Embed Frameworks */,
+				78BA7D161FC0B5AB00341CFA /* GTMSessionFetcher.framework in Embed Frameworks */,
+				78003C431FC0B70D00C3CDC8 /* GoogleToolboxForMac.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		78003C561FC0BC4700C3CDC8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		7801686A1FBF8C5D002D8BA2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7801686B1FBF8C5E002D8BA2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		7801686C1FBF8C5E002D8BA2 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		780168721FBF8DB7002D8BA2 /* LSVideoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSVideoItem.swift; sourceTree = "<group>"; };
+		78E02D011F97BDAB007C25D1 /* Littlstar Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Littlstar Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E02D041F97BDAB007C25D1 /* AppDelegate.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; tabWidth = 2; };
+		78E02D061F97BDAB007C25D1 /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
+		78E02D0B1F97BDAB007C25D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78E02D101F97BDAB007C25D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A4019001FEAC3EB00BD0261 /* Littlstar Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Littlstar Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		7A4019011FEAC3EC00BD0261 /* ObjcViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcViewController.h; sourceTree = "<group>"; };
+		7A4019021FEAC3EC00BD0261 /* ObjcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcViewController.m; sourceTree = "<group>"; };
+		FC65813F1FC3564B00FBD387 /* govball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = govball.jpg; path = Assets.xcassets/govball.jpg; sourceTree = "<group>"; };
+		FC978D911F993C1B00147543 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = ../../Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		FC978D9B1F993C6C00147543 /* ls-ios-sdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "ls-ios-sdk.xcodeproj"; path = "../../ls-ios-sdk.xcodeproj"; sourceTree = "<group>"; };
+		FCC0FA4A1FB3A0AB00B284C5 /* govball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = govball.jpg; path = ../../../../axis3d/public/assets/govball.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78E02CFE1F97BDAB007C25D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78003C501FC0B76700C3CDC8 /* ls_ios_sdk.framework in Frameworks */,
+				FC978DA81F993CAD00147543 /* Lottie.framework in Frameworks */,
+				78BA7D151FC0B5AB00341CFA /* GTMSessionFetcher.framework in Frameworks */,
+				78003C421FC0B70D00C3CDC8 /* GoogleToolboxForMac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		780168671FBF8C3E002D8BA2 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				7801686A1FBF8C5D002D8BA2 /* DetailViewController.swift */,
+				7801686C1FBF8C5E002D8BA2 /* DetailController.swift */,
+				7801686B1FBF8C5E002D8BA2 /* DetailView.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		780168781FBFEDD7002D8BA2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				780168721FBF8DB7002D8BA2 /* LSVideoItem.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		780168791FBFEDE8002D8BA2 /* PlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				78E02D061F97BDAB007C25D1 /* ViewController.swift */,
+				7A4019011FEAC3EC00BD0261 /* ObjcViewController.h */,
+				7A4019021FEAC3EC00BD0261 /* ObjcViewController.m */,
+				7A4019001FEAC3EB00BD0261 /* Littlstar Demo-Bridging-Header.h */,
+			);
+			name = PlayerView;
+			sourceTree = "<group>";
+		};
+		78E02CF81F97BDAB007C25D1 = {
+			isa = PBXGroup;
+			children = (
+				78E02D021F97BDAB007C25D1 /* Products */,
+				78E02D031F97BDAB007C25D1 /* Littlstar Demo */,
+				FC978D9B1F993C6C00147543 /* ls-ios-sdk.xcodeproj */,
+				FC978D911F993C1B00147543 /* Pods.xcodeproj */,
+				FC65813C1FC355DF00FBD387 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		78E02D021F97BDAB007C25D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78E02D011F97BDAB007C25D1 /* Littlstar Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78E02D031F97BDAB007C25D1 /* Littlstar Demo */ = {
+			isa = PBXGroup;
+			children = (
+				78E02D041F97BDAB007C25D1 /* AppDelegate.swift */,
+				780168781FBFEDD7002D8BA2 /* Classes */,
+				780168671FBF8C3E002D8BA2 /* DetailView */,
+				780168791FBFEDE8002D8BA2 /* PlayerView */,
+				78E02D0B1F97BDAB007C25D1 /* Assets.xcassets */,
+				FC65813F1FC3564B00FBD387 /* govball.jpg */,
+				78E02D101F97BDAB007C25D1 /* Info.plist */,
+				78003C561FC0BC4700C3CDC8 /* Launch Screen.storyboard */,
+			);
+			path = "Littlstar Demo";
+			sourceTree = "<group>";
+		};
+		FC65813C1FC355DF00FBD387 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				FCC0FA4A1FB3A0AB00B284C5 /* govball.jpg */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		FC978D921F993C1B00147543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7823C27A1FBCFA8900DD5EE7 /* GoogleToolboxForMac.framework */,
+				7823C27C1FBCFA8900DD5EE7 /* GTMSessionFetcher.framework */,
+				FC978D981F993C1B00147543 /* Lottie.framework */,
+				FC978D9A1F993C1B00147543 /* Pods_ls_ios_sdk.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC978D9C1F993C6C00147543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC978DA11F993C6C00147543 /* ls_ios_sdk.framework */,
+				FC978DA31F993C6C00147543 /* ls-ios-sdkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78E02D001F97BDAB007C25D1 /* Littlstar Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78E02D131F97BDAB007C25D1 /* Build configuration list for PBXNativeTarget "Littlstar Demo" */;
+			buildPhases = (
+				78E02CFD1F97BDAB007C25D1 /* Sources */,
+				78E02CFE1F97BDAB007C25D1 /* Frameworks */,
+				78E02CFF1F97BDAB007C25D1 /* Resources */,
+				78E02D2D1F97BE00007C25D1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC978DAB1F993CAD00147543 /* PBXTargetDependency */,
+				78BA7D181FC0B5AB00341CFA /* PBXTargetDependency */,
+				78003C451FC0B70D00C3CDC8 /* PBXTargetDependency */,
+				78003C531FC0B76700C3CDC8 /* PBXTargetDependency */,
+			);
+			name = "Littlstar Demo";
+			productName = "Littlstar Demo";
+			productReference = 78E02D011F97BDAB007C25D1 /* Littlstar Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78E02CF91F97BDAB007C25D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Huy Dao";
+				TargetAttributes = {
+					78E02D001F97BDAB007C25D1 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 78E02CFC1F97BDAB007C25D1 /* Build configuration list for PBXProject "Littlstar Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78E02CF81F97BDAB007C25D1;
+			productRefGroup = 78E02D021F97BDAB007C25D1 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FC978D9C1F993C6C00147543 /* Products */;
+					ProjectRef = FC978D9B1F993C6C00147543 /* ls-ios-sdk.xcodeproj */;
+				},
+				{
+					ProductGroup = FC978D921F993C1B00147543 /* Products */;
+					ProjectRef = FC978D911F993C1B00147543 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				78E02D001F97BDAB007C25D1 /* Littlstar Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7823C27A1FBCFA8900DD5EE7 /* GoogleToolboxForMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GoogleToolboxForMac.framework;
+			remoteRef = 7823C2791FBCFA8900DD5EE7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7823C27C1FBCFA8900DD5EE7 /* GTMSessionFetcher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTMSessionFetcher.framework;
+			remoteRef = 7823C27B1FBCFA8900DD5EE7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FC978D981F993C1B00147543 /* Lottie.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lottie.framework;
+			remoteRef = FC978D971F993C1B00147543 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FC978D9A1F993C1B00147543 /* Pods_ls_ios_sdk.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_ls_ios_sdk.framework;
+			remoteRef = FC978D991F993C1B00147543 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FC978DA11F993C6C00147543 /* ls_ios_sdk.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ls_ios_sdk.framework;
+			remoteRef = FC978DA01F993C6C00147543 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FC978DA31F993C6C00147543 /* ls-ios-sdkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ls-ios-sdkTests.xctest";
+			remoteRef = FC978DA21F993C6C00147543 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78E02CFF1F97BDAB007C25D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78003C571FC0BC4700C3CDC8 /* Launch Screen.storyboard in Resources */,
+				78E02D0C1F97BDAB007C25D1 /* Assets.xcassets in Resources */,
+				FC6581401FC3564C00FBD387 /* govball.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78E02CFD1F97BDAB007C25D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780168731FBF8DB7002D8BA2 /* LSVideoItem.swift in Sources */,
+				7A4019031FEAC3EC00BD0261 /* ObjcViewController.m in Sources */,
+				7801686F1FBF8C7B002D8BA2 /* DetailView.swift in Sources */,
+				7801686E1FBF8C7B002D8BA2 /* DetailController.swift in Sources */,
+				78E02D071F97BDAB007C25D1 /* ViewController.swift in Sources */,
+				7801686D1FBF8C7B002D8BA2 /* DetailViewController.swift in Sources */,
+				78E02D051F97BDAB007C25D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78003C451FC0B70D00C3CDC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			targetProxy = 78003C441FC0B70D00C3CDC8 /* PBXContainerItemProxy */;
+		};
+		78003C531FC0B76700C3CDC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ls-ios-sdk";
+			targetProxy = 78003C521FC0B76700C3CDC8 /* PBXContainerItemProxy */;
+		};
+		78BA7D181FC0B5AB00341CFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMSessionFetcher;
+			targetProxy = 78BA7D171FC0B5AB00341CFA /* PBXContainerItemProxy */;
+		};
+		FC978DAB1F993CAD00147543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "lottie-ios";
+			targetProxy = FC978DAA1F993CAD00147543 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		78E02D111F97BDAB007C25D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78E02D121F97BDAB007C25D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78E02D141F97BDAB007C25D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXEASF63SW;
+				INFOPLIST_FILE = "Littlstar Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Littlstar.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Littlstar Demo/Littlstar Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		78E02D151F97BDAB007C25D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXEASF63SW;
+				INFOPLIST_FILE = "Littlstar Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Littlstar.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Littlstar Demo/Littlstar Demo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78E02CFC1F97BDAB007C25D1 /* Build configuration list for PBXProject "Littlstar Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E02D111F97BDAB007C25D1 /* Debug */,
+				78E02D121F97BDAB007C25D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78E02D131F97BDAB007C25D1 /* Build configuration list for PBXNativeTarget "Littlstar Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E02D141F97BDAB007C25D1 /* Debug */,
+				78E02D151F97BDAB007C25D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78E02CF91F97BDAB007C25D1 /* Project object */;
+}

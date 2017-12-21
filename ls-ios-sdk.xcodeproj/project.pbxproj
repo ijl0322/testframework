@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FA55A3446844DB20C45B45E /* Pods_ls_ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7959338F056055E71482B6DE /* Pods_ls_ios_sdk.framework */; };
+		781D54941F9660ED00025E2B /* ls_ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781D548A1F9660ED00025E2B /* ls_ios_sdk.framework */; };
+		781D54991F9660ED00025E2B /* ls_ios_sdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781D54981F9660ED00025E2B /* ls_ios_sdkTests.swift */; };
+		781D549B1F9660ED00025E2B /* ls_ios_sdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 781D548D1F9660ED00025E2B /* ls_ios_sdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		785BB6941FE31B0600316DC1 /* LittlstarSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 785BB6931FE31B0600316DC1 /* LittlstarSDK.bundle */; };
+		785BB6951FE31B0600316DC1 /* LittlstarSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 785BB6931FE31B0600316DC1 /* LittlstarSDK.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		781D54951F9660ED00025E2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 781D54811F9660ED00025E2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 781D54891F9660ED00025E2B;
+			remoteInfo = "ls-ios-sdk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		781D548A1F9660ED00025E2B /* ls_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ls_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		781D548D1F9660ED00025E2B /* ls_ios_sdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ls_ios_sdk.h; sourceTree = "<group>"; };
+		781D548E1F9660ED00025E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		781D54931F9660ED00025E2B /* ls-ios-sdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ls-ios-sdkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		781D54981F9660ED00025E2B /* ls_ios_sdkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ls_ios_sdkTests.swift; sourceTree = "<group>"; };
+		781D549A1F9660ED00025E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7823C2701FBCF9C900DD5EE7 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7823C2721FBCF9CC00DD5EE7 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		782DF8111FABB5DE0093EEFD /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		785BB6931FE31B0600316DC1 /* LittlstarSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LittlstarSDK.bundle; sourceTree = "<group>"; };
+		78990F0A1FAA3BEB00BAD0D4 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		789D2E211FB384F600B5C6A6 /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7959338F056055E71482B6DE /* Pods_ls_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ls_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A079AD81FEC68FF00A37C7B /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A079ADA1FEC690300A37C7B /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5F89AC1FEC4E190065099C /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5F89AE1FEC4E1E0065099C /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5F89B01FEC4E230065099C /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD0CE451FEC2EF1003B9A32 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD0CE471FEC2EF5003B9A32 /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		834550D14C1E66E0533F8C55 /* Pods-ls-ios-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ls-ios-sdk.release.xcconfig"; path = "Pods/Target Support Files/Pods-ls-ios-sdk/Pods-ls-ios-sdk.release.xcconfig"; sourceTree = "<group>"; };
+		A2E77FB74DB8357CF5BA5007 /* Pods-ls-ios-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ls-ios-sdk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ls-ios-sdk/Pods-ls-ios-sdk.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		781D54861F9660ED00025E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA55A3446844DB20C45B45E /* Pods_ls_ios_sdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781D54901F9660ED00025E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781D54941F9660ED00025E2B /* ls_ios_sdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		781D54801F9660ED00025E2B = {
+			isa = PBXGroup;
+			children = (
+				785BB6931FE31B0600316DC1 /* LittlstarSDK.bundle */,
+				781D548C1F9660ED00025E2B /* ls-ios-sdk */,
+				781D54971F9660ED00025E2B /* ls-ios-sdkTests */,
+				781D548B1F9660ED00025E2B /* Products */,
+				78A21EF91F96953C00F42E07 /* Frameworks */,
+				7D24A569A3FCE4376779D3C1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		781D548B1F9660ED00025E2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				781D548A1F9660ED00025E2B /* ls_ios_sdk.framework */,
+				781D54931F9660ED00025E2B /* ls-ios-sdkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		781D548C1F9660ED00025E2B /* ls-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				78990F0A1FAA3BEB00BAD0D4 /* Podfile */,
+				781D548D1F9660ED00025E2B /* ls_ios_sdk.h */,
+				781D548E1F9660ED00025E2B /* Info.plist */,
+			);
+			path = "ls-ios-sdk";
+			sourceTree = "<group>";
+		};
+		781D54971F9660ED00025E2B /* ls-ios-sdkTests */ = {
+			isa = PBXGroup;
+			children = (
+				781D54981F9660ED00025E2B /* ls_ios_sdkTests.swift */,
+				781D549A1F9660ED00025E2B /* Info.plist */,
+			);
+			path = "ls-ios-sdkTests";
+			sourceTree = "<group>";
+		};
+		78A21EF91F96953C00F42E07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A079ADA1FEC690300A37C7B /* GTMSessionFetcher.framework */,
+				7A079AD81FEC68FF00A37C7B /* GoogleToolboxForMac.framework */,
+				7A5F89B01FEC4E230065099C /* GoogleToolboxForMac.framework */,
+				7A5F89AE1FEC4E1E0065099C /* Lottie.framework */,
+				7A5F89AC1FEC4E190065099C /* GTMSessionFetcher.framework */,
+				7AD0CE471FEC2EF5003B9A32 /* Lottie.framework */,
+				7AD0CE451FEC2EF1003B9A32 /* GoogleToolboxForMac.framework */,
+				7823C2721FBCF9CC00DD5EE7 /* GTMSessionFetcher.framework */,
+				7823C2701FBCF9C900DD5EE7 /* GoogleToolboxForMac.framework */,
+				789D2E211FB384F600B5C6A6 /* Lottie.framework */,
+				782DF8111FABB5DE0093EEFD /* Lottie.framework */,
+				7959338F056055E71482B6DE /* Pods_ls_ios_sdk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D24A569A3FCE4376779D3C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2E77FB74DB8357CF5BA5007 /* Pods-ls-ios-sdk.debug.xcconfig */,
+				834550D14C1E66E0533F8C55 /* Pods-ls-ios-sdk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		781D54871F9660ED00025E2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781D549B1F9660ED00025E2B /* ls_ios_sdk.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		781D54891F9660ED00025E2B /* ls-ios-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 781D549E1F9660ED00025E2B /* Build configuration list for PBXNativeTarget "ls-ios-sdk" */;
+			buildPhases = (
+				C8D441D9C8F3E708CCA9932F /* [CP] Check Pods Manifest.lock */,
+				781D54851F9660ED00025E2B /* Sources */,
+				781D54861F9660ED00025E2B /* Frameworks */,
+				781D54871F9660ED00025E2B /* Headers */,
+				781D54881F9660ED00025E2B /* Resources */,
+				7DE59779861BAA886CD72BE9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ls-ios-sdk";
+			productName = "ls-ios-sdk";
+			productReference = 781D548A1F9660ED00025E2B /* ls_ios_sdk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		781D54921F9660ED00025E2B /* ls-ios-sdkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 781D54A11F9660ED00025E2B /* Build configuration list for PBXNativeTarget "ls-ios-sdkTests" */;
+			buildPhases = (
+				781D548F1F9660ED00025E2B /* Sources */,
+				781D54901F9660ED00025E2B /* Frameworks */,
+				781D54911F9660ED00025E2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				781D54961F9660ED00025E2B /* PBXTargetDependency */,
+			);
+			name = "ls-ios-sdkTests";
+			productName = "ls-ios-sdkTests";
+			productReference = 781D54931F9660ED00025E2B /* ls-ios-sdkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		781D54811F9660ED00025E2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Huy Dao";
+				TargetAttributes = {
+					781D54891F9660ED00025E2B = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					781D54921F9660ED00025E2B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 781D54841F9660ED00025E2B /* Build configuration list for PBXProject "ls-ios-sdk" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 781D54801F9660ED00025E2B;
+			productRefGroup = 781D548B1F9660ED00025E2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				781D54891F9660ED00025E2B /* ls-ios-sdk */,
+				781D54921F9660ED00025E2B /* ls-ios-sdkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		781D54881F9660ED00025E2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785BB6941FE31B0600316DC1 /* LittlstarSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781D54911F9660ED00025E2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785BB6951FE31B0600316DC1 /* LittlstarSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DE59779861BAA886CD72BE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ls-ios-sdk/Pods-ls-ios-sdk-resources.sh",
+				"${PODS_ROOT}/GVRSDK/Resources/CardboardSDK.bundle",
+				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitCore.bundle",
+				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitDialogs.bundle",
+				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitHUD.bundle",
+				"${PODS_ROOT}/GVRSDK/Resources/MaterialRobotoFontLoader.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ls-ios-sdk/Pods-ls-ios-sdk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8D441D9C8F3E708CCA9932F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ls-ios-sdk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		781D54851F9660ED00025E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781D548F1F9660ED00025E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781D54991F9660ED00025E2B /* ls_ios_sdkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		781D54961F9660ED00025E2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 781D54891F9660ED00025E2B /* ls-ios-sdk */;
+			targetProxy = 781D54951F9660ED00025E2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		781D549C1F9660ED00025E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		781D549D1F9660ED00025E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		781D549F1F9660ED00025E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E77FB74DB8357CF5BA5007 /* Pods-ls-ios-sdk.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HXEASF63SW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/GVRSDK\"",
+				);
+				INFOPLIST_FILE = "ls-ios-sdk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Littlstar.ls-ios-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		781D54A01F9660ED00025E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 834550D14C1E66E0533F8C55 /* Pods-ls-ios-sdk.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HXEASF63SW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/GVRSDK\"",
+				);
+				INFOPLIST_FILE = "ls-ios-sdk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Littlstar.ls-ios-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		781D54A21F9660ED00025E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXEASF63SW;
+				INFOPLIST_FILE = "ls-ios-sdkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Littlstar.ls-ios-sdkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		781D54A31F9660ED00025E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXEASF63SW;
+				INFOPLIST_FILE = "ls-ios-sdkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Littlstar.ls-ios-sdkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		781D54841F9660ED00025E2B /* Build configuration list for PBXProject "ls-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				781D549C1F9660ED00025E2B /* Debug */,
+				781D549D1F9660ED00025E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		781D549E1F9660ED00025E2B /* Build configuration list for PBXNativeTarget "ls-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				781D549F1F9660ED00025E2B /* Debug */,
+				781D54A01F9660ED00025E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		781D54A11F9660ED00025E2B /* Build configuration list for PBXNativeTarget "ls-ios-sdkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				781D54A21F9660ED00025E2B /* Debug */,
+				781D54A31F9660ED00025E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 781D54811F9660ED00025E2B /* Project object */;
+}
